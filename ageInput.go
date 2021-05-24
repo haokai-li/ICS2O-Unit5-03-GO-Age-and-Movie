@@ -22,13 +22,13 @@ func main() {
 	// detect
 	if age >= 17 {
 		// output of right answer
-		fmt.Println("You can see a R movie aline.")
+		fmt.Println("You can see a R movie alone.")
 	} else if age >= 13 {
 		// output of wrong answer
-		fmt.Println("You can see a PG-13 movie aline.")
+		fmt.Println("You can see a PG-13 movie alone.")
 	} else if age >= 5 {
 		// output of wrong answer
-		fmt.Println("You can see a G or PG movie aline.")
+		fmt.Println("You can see a G or PG movie alone.")
 	} else {
 		// output of wrong answer
 		fmt.Println("Uh, you are too young for most things.")
