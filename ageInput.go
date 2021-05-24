@@ -21,16 +21,16 @@ func main() {
 
 	// detect
 	if age >= 17 {
-		// output of right answer
+		// output of R
 		fmt.Println("You can see a R movie alone.")
 	} else if age >= 13 {
-		// output of wrong answer
+		// output of PG-13
 		fmt.Println("You can see a PG-13 movie alone.")
 	} else if age >= 5 {
-		// output of wrong answer
+		// output of G or PG
 		fmt.Println("You can see a G or PG movie alone.")
 	} else {
-		// output of wrong answer
+		// output of too young
 		fmt.Println("Uh, you are too young for most things.")
 	}
 	fmt.Println("Thanks for verifying  your age!")
